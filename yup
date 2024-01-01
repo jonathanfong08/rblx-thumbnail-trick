@@ -3,7 +3,7 @@ hit inspect element (ctrl shift i)
 Hit the lil cursor and hover over the image of the accessory
 then scroll a lil bit till you see a part of the code that starts with "<div id="ItemPurchaseAjaxData""
 should be a white textbox at the bottom left of your screen saying div#ItemPurchaseAjaxData
-edit that whole box and find the variable named "data-imageur" and copy the value, it should be something like https://tr.rbxcdn.com/e5fbbc38a10bad17163de8c456dd818b/110/110/Hat/Png
+edit that whole box and find the variable named "data-imageurl" and copy the value, it should be something like https://tr.rbxcdn.com/e5fbbc38a10bad17163de8c456dd818b/110/110/Hat/Png
 (in trade, for this case, it's 150/150 not 110)
 --------------------------------------
 Fake Roblox LIMITEDS ownership trick:
