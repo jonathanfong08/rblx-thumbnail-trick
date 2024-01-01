@@ -5,3 +5,19 @@ then scroll a lil bit till you see a part of the code that starts with "<div id=
 should be a white textbox at the bottom left of your screen saying div#ItemPurchaseAjaxData
 edit that whole box and find the variable named "data-imageur" and copy the value, it should be something like https://tr.rbxcdn.com/e5fbbc38a10bad17163de8c456dd818b/110/110/Hat/Png
 (in trade, for this case, it's 150/150 not 110)
+--------------------------------------
+Fake Roblox LIMITEDS ownership trick:
+1. hit inspect element
+2. hit the lil cursor and over over the part where it says By Roblox
+3. It should highlight some text that says: <div class="item-details-creator-container">
+4. edit it
+5. scroll to the very end
+6. the last sentence should say "</span></div><span>Owned Items (1)</span></span></div>"
+Copy that and the 2 sentences above it
+the copied part should be like this: </span><span class="item-owned"><div class="label-checkmark"><span class="icon-checkmark-white-bold"></span></div><span>Owned Items (1)</span></span></div>
+now go to the item u supposedly want to fake ur ownership
+follow steps 1-5
+Now scroll to the very end(step 5) and the last sentence should be sum like "title="Verified Badge Icon" alt="Verified Badge Icon"></span></div>"
+delete the "</span></div>" ONLY AT THE END.
+Replace that with this "</span><span class="item-owned"><div class="label-checkmark"><span class="icon-checkmark-white-bold"></span></div><span>Owned Items (1)</span></span></div>"
+Click outside the box to save changes and voila
